@@ -1,0 +1,2 @@
+# typographic_hierarchy_and_responsive_design
+demonstrating typographic hierarchy and mobile-first responsive design
