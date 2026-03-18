@@ -1,0 +1,121 @@
+/*Mobile first design*/
+body {
+    padding: 1.5rem;
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 1.6;
+    max-width: 65ch;
+    background-color: white;
+    color: black;
+  }
+
+h1, h2 {
+  font-family: 'Bitter', serif;
+  color: black;
+  }
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header, main, footer {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+/* Main Area */
+ .content {
+  display: block;
+  text-align: center;
+  }
+
+.figure {
+  width: 40%;
+  height: auto;
+  margin-bottom: 1rem;
+  }
+
+.story p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: .9rem;
+  background: black;
+  color: white;
+  }
+
+/* Responsive Layout - tablet */
+@media (min-width: 768px) {
+
+  body {
+       padding: 2rem 2rem;
+       line-height: 2;
+  }
+  
+    .content {
+        display: block;
+        align-items: center;
+        text-align: left;
+    }
+
+  .figure {
+    width: 60%;
+    height: auto;
+  }
+  
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+  
+    .story p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+  /* Responsive Layout - desktop */
+@media (min-width: 1024px) {
+    
+     body {
+       padding: 2rem 3rem;
+       line-height: 2;
+       max-width: none;
+  }
+  
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 3rem;
+        align-items: left;
+    }
+
+  .figure {
+    width: 100%;
+    height: auto;
+  }
+  
+    h1 {
+        font-size: 3rem;
+    }
+  
+    h2 {
+        font-size: 1.75rem;
+    }
+ }
